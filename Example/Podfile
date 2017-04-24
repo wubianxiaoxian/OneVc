@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OneVc_Example' do
+  pod 'OneVc', :path => '../'
+
+  target 'OneVc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
