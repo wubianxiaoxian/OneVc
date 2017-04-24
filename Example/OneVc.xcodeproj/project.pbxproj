@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1856140B7AEDDC2AF00A8CD8 /* Pods_OneVc_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE46416C36070BAF25475EA7 /* Pods_OneVc_Example.framework */; };
+		1DF4BF951EAE4E1F005AABE2 /* OneVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4BF941EAE4E1F005AABE2 /* OneVc.m */; };
+		1DF4BF981EAE53AA005AABE2 /* OneVcModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4BF971EAE53AA005AABE2 /* OneVcModuleAPI.m */; };
 		4B580CBEBC834201803D7E52 /* Pods_OneVc_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159B53AD1D33BA7D463D9730 /* Pods_OneVc_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		159B53AD1D33BA7D463D9730 /* Pods_OneVc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneVc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF4BF931EAE4E1F005AABE2 /* OneVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVc.h; sourceTree = "<group>"; };
+		1DF4BF941EAE4E1F005AABE2 /* OneVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVc.m; sourceTree = "<group>"; };
+		1DF4BF961EAE53AA005AABE2 /* OneVcModuleAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVcModuleAPI.h; sourceTree = "<group>"; };
+		1DF4BF971EAE53AA005AABE2 /* OneVcModuleAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVcModuleAPI.m; sourceTree = "<group>"; };
 		20CC48C8C674FB6A6FB2AF88 /* Pods-OneVc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneVc_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneVc_Tests/Pods-OneVc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26A5537853D03F583FFED1EF /* Pods-OneVc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneVc_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneVc_Example/Pods-OneVc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OneVc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneVc_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,13 +65,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B0F12801401C8ED667481D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6B36892789C57B14B5652C06 /* OneVc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OneVc.podspec; path = ../OneVc.podspec; sourceTree = "<group>"; };
+		6B0F12801401C8ED667481D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B36892789C57B14B5652C06 /* OneVc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OneVc.podspec; path = ../OneVc.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DB86CFB7AEAB776F9C54C64 /* Pods-OneVc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneVc_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneVc_Example/Pods-OneVc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AE46416C36070BAF25475EA7 /* Pods_OneVc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneVc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED28C1A6B817FCA24A2A91FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED28C1A6B817FCA24A2A91FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FC809FB00D7057CE01EF189E /* Pods-OneVc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneVc_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneVc_Tests/Pods-OneVc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* skfAppDelegate.h */,
+				1DF4BF961EAE53AA005AABE2 /* OneVcModuleAPI.h */,
+				1DF4BF971EAE53AA005AABE2 /* OneVcModuleAPI.m */,
+				1DF4BF931EAE4E1F005AABE2 /* OneVc.h */,
+				1DF4BF941EAE4E1F005AABE2 /* OneVc.m */,
 				6003F59D195388D20070C39A /* skfAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* skfViewController.h */,
@@ -395,7 +405,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* skfAppDelegate.m in Sources */,
+				1DF4BF951EAE4E1F005AABE2 /* OneVc.m in Sources */,
 				6003F5A7195388D20070C39A /* skfViewController.m in Sources */,
+				1DF4BF981EAE53AA005AABE2 /* OneVcModuleAPI.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

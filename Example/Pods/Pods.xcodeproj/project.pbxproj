@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0305D8CACFBF6A1E5815B536C74B013A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E9CAE4BC715F29119DC84B62861AF5 /* LoginViewController.m */; };
+		224B1AE2255E9291991FD56E18FA49AA /* Pods-OneVc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6564C5D1944B1DA1D94E5D9182438E /* Pods-OneVc_Example-dummy.m */; };
+		3A3E01DC4874668C2D05FBBAE0F56BDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EE44AFBE1733519ED186BEFC27DF9F /* Foundation.framework */; };
+		44910F7059499AC7D3A70B256155DCB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EE44AFBE1733519ED186BEFC27DF9F /* Foundation.framework */; };
+		59F9183E78FF1793D3746EA36E6E6CA7 /* OneVc.h in Headers */ = {isa = PBXBuildFile; fileRef = 635E232A246EAF7F288CF4BB4753A9D9 /* OneVc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6209919F84FF53F264C3ECB2E760845E /* OneVc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118C935689B91B78C48725EE09D39AD /* OneVc-dummy.m */; };
+		6EEEF154329E579FFCB063991432B3A0 /* Userinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A90A93F7EF43E5E55F263278FB4A63C6 /* Userinfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BEDA4E0C7F2764A11AA8BB8E0E7BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EE44AFBE1733519ED186BEFC27DF9F /* Foundation.framework */; };
+		8B2787AB31854839206253C8DDAA7032 /* OneVc.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BAC696B37B3D7208F5BFFAD7685608 /* OneVc.m */; };
+		909BAAA5D1D1A9A12983441EB3F356AE /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A56C99C478664D926D957DBFFE4CF7A1 /* LoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955E1FF80676A2EC43258108433C5768 /* OneVcModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F289BF1400DDB0A10441D0C32CC33A /* OneVcModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9692C8BE433097591CAFE5E8015D0FB1 /* login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F50E93BE0BD939E1031A9D0F360BE815 /* login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE06728CB90A4B9935D31D33C4F8C4B0 /* Userinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C573F6117256C85CC70F3599FDCC55E9 /* Userinfo.m */; };
+		C02D8BD488D746D6BA714D04DC780697 /* login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8C4F822C30A048C2EABDAE086EB12A /* login.framework */; };
+		DB6A42C7B7B4913022BDA80E01B358B9 /* Pods-OneVc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BF4C70277D86E7A38BE55B938929AA /* Pods-OneVc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27B31A40D14790876068E07F9A6FF09 /* OneVc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA914DF8C3C914F6B7AF9E84ECD1624C /* OneVc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED6B2776F4549BAA84207D094659C1D0 /* login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3B55F02DE01F173EBD368BBA7BDB52 /* login-dummy.m */; };
+		F1ECAD53A006D1ED2E6D5ED0729A6D79 /* Pods-OneVc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AD4B39E0A40847110A68EBBC76BEB3 /* Pods-OneVc_Tests-dummy.m */; };
+		F4B0F5EAF7C4D50A49F16D7AE60BB778 /* Pods-OneVc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0044413C2C4BDFF677E90BF5C31A2DC3 /* Pods-OneVc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9499DF1778E9F4179AB37EADBD62F36 /* OneVcModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FDC9A15CDFC75CAEED953826A6AF9E /* OneVcModuleAPI.m */; };
+		FFE6005E7F45A33670DCD9768798D0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EE44AFBE1733519ED186BEFC27DF9F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0475AE172D9376984BFFF5C9D960F43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A5A737BECD3A9D54DCABB4BDBBE382;
+			remoteInfo = login;
+		};
+		751FB67D463CB3E568FD6963E871B5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A5A737BECD3A9D54DCABB4BDBBE382;
+			remoteInfo = login;
+		};
+		7B23F08CAF715C606C44EB1E29AA867A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EBF27A13B18109CBB677AFC207A9197;
+			remoteInfo = OneVc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0044413C2C4BDFF677E90BF5C31A2DC3 /* Pods-OneVc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneVc_Example-umbrella.h"; sourceTree = "<group>"; };
+		0654DBDE8C1D4BD4219ACB8C2FA560C5 /* Pods-OneVc_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneVc_Tests-resources.sh"; sourceTree = "<group>"; };
+		1DB4761862F3E158F9510523A099922D /* Pods-OneVc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneVc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2118C935689B91B78C48725EE09D39AD /* OneVc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneVc-dummy.m"; sourceTree = "<group>"; };
+		2534A3FF19E933EE6AE1749BBAB3E065 /* Pods-OneVc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneVc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A121FE71ED6B36EC480878F3BB28668 /* Pods_OneVc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneVc_Example.framework; path = "Pods-OneVc_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C715A88E7391D084EDD6EF7021C3C7A /* OneVc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneVc.framework; path = OneVc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCD9C9FF2CB7339F0E428BA11D63717 /* Pods-OneVc_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneVc_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		351B8D79B667A94FB35F251C6B98C388 /* login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = login.framework; path = login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D087EBD73B22EB39068AA7DF07D2078 /* Pods_OneVc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneVc_Tests.framework; path = "Pods-OneVc_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E94C8ED1FA8274CD2C9DB37A1357DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FDC9A15CDFC75CAEED953826A6AF9E /* OneVcModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OneVcModuleAPI.m; sourceTree = "<group>"; };
+		631C115AF0755045552539C863753CCB /* Pods-OneVc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneVc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		635E232A246EAF7F288CF4BB4753A9D9 /* OneVc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OneVc.h; sourceTree = "<group>"; };
+		647F0A43DA7201C164348BDCB549D80F /* Pods-OneVc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneVc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66AEDFCCE0B054E2DB528F3F85BC3E3E /* OneVc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneVc.xcconfig; sourceTree = "<group>"; };
+		6929A45C3348A93B5CA324B7E2914E12 /* Pods-OneVc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneVc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D6564C5D1944B1DA1D94E5D9182438E /* Pods-OneVc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneVc_Example-dummy.m"; sourceTree = "<group>"; };
+		7F8C4F822C30A048C2EABDAE086EB12A /* login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F289BF1400DDB0A10441D0C32CC33A /* OneVcModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OneVcModuleAPI.h; sourceTree = "<group>"; };
+		8C6D53B80F20ECE76673BAECF7D1C1A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905FF00DC2F595335FC881E4F552DAEC /* login-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "login-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B94BFB99751D2CBD9ED2D2055DBDA91 /* login.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = login.xcconfig; sourceTree = "<group>"; };
+		9D1B9737BAF6197CBC10202AE98706BD /* login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = login.modulemap; sourceTree = "<group>"; };
+		A54354F785D314787508987A206E74B7 /* Pods-OneVc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OneVc_Example.modulemap"; sourceTree = "<group>"; };
+		A56C99C478664D926D957DBFFE4CF7A1 /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = login/Classes/LoginViewController.h; sourceTree = "<group>"; };
+		A5FF6518DDBD1DB4CDA8B7CE7B1AF088 /* OneVc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OneVc.modulemap; sourceTree = "<group>"; };
+		A8EE44AFBE1733519ED186BEFC27DF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A90A93F7EF43E5E55F263278FB4A63C6 /* Userinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Userinfo.h; path = login/Classes/Userinfo.h; sourceTree = "<group>"; };
+		AA15743490AD79A3AA88DAEFF826AC01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24AE3D217B097660E3E0A59510C1F37 /* Pods-OneVc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneVc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B83317A63A8464342D82AAB3EEDAEA5B /* Pods-OneVc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OneVc_Tests.modulemap"; sourceTree = "<group>"; };
+		B8A725D1770D3A5A9C0F092EC0F7958B /* Pods-OneVc_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneVc_Example-resources.sh"; sourceTree = "<group>"; };
+		BF3B55F02DE01F173EBD368BBA7BDB52 /* login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "login-dummy.m"; sourceTree = "<group>"; };
+		C1E9CAE4BC715F29119DC84B62861AF5 /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = login/Classes/LoginViewController.m; sourceTree = "<group>"; };
+		C2A21E612FF5D992DE51CFAD19585954 /* OneVc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneVc-prefix.pch"; sourceTree = "<group>"; };
+		C573F6117256C85CC70F3599FDCC55E9 /* Userinfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Userinfo.m; path = login/Classes/Userinfo.m; sourceTree = "<group>"; };
+		C6BAC696B37B3D7208F5BFFAD7685608 /* OneVc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OneVc.m; sourceTree = "<group>"; };
+		CA914DF8C3C914F6B7AF9E84ECD1624C /* OneVc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneVc-umbrella.h"; sourceTree = "<group>"; };
+		D5AD4B39E0A40847110A68EBBC76BEB3 /* Pods-OneVc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneVc_Tests-dummy.m"; sourceTree = "<group>"; };
+		DA3F69216375AD65B3FDAB0CE45C7A36 /* Pods-OneVc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneVc_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2137F6C9D88AF3A635028C468DD7CBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BF4C70277D86E7A38BE55B938929AA /* Pods-OneVc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneVc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F335C9C8978CE6B85D73C893852D9A96 /* Pods-OneVc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneVc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F50E93BE0BD939E1031A9D0F360BE815 /* login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "login-umbrella.h"; sourceTree = "<group>"; };
+		F9F397379F949339325226586C6AE478 /* Pods-OneVc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneVc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED6419643631966D22A5BDCEC04782D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44910F7059499AC7D3A70B256155DCB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B98866CB6E15BB738BE80103FACFEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BEDA4E0C7F2764A11AA8BB8E0E7BDB /* Foundation.framework in Frameworks */,
+				C02D8BD488D746D6BA714D04DC780697 /* login.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8174575CA3F46ACFD8694159672D8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE6005E7F45A33670DCD9768798D0B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8E01B8648AE5D4C06730867948E30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E01DC4874668C2D05FBBAE0F56BDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264023761E004CF7F6F6797074A7898A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5FAC0CD48F83AEC9B9EF2A75DE94A32 /* Pods-OneVc_Example */,
+				4E6C60FD55A7E53543FC78BF3F2199EB /* Pods-OneVc_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DB6130D22FC27F4F9376972F8278975 /* OneVc */ = {
+			isa = PBXGroup;
+			children = (
+				705AB832149D4BA905821CD3C900CFAF /* Classes */,
+			);
+			name = OneVc;
+			path = OneVc;
+			sourceTree = "<group>";
+		};
+		46815B8D0E67CE9D05068875D0C8AD60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F8C4F822C30A048C2EABDAE086EB12A /* login.framework */,
+				6DBD3166972210EF70F891358288650C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E6C60FD55A7E53543FC78BF3F2199EB /* Pods-OneVc_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E2137F6C9D88AF3A635028C468DD7CBD /* Info.plist */,
+				B83317A63A8464342D82AAB3EEDAEA5B /* Pods-OneVc_Tests.modulemap */,
+				647F0A43DA7201C164348BDCB549D80F /* Pods-OneVc_Tests-acknowledgements.markdown */,
+				6929A45C3348A93B5CA324B7E2914E12 /* Pods-OneVc_Tests-acknowledgements.plist */,
+				D5AD4B39E0A40847110A68EBBC76BEB3 /* Pods-OneVc_Tests-dummy.m */,
+				2DCD9C9FF2CB7339F0E428BA11D63717 /* Pods-OneVc_Tests-frameworks.sh */,
+				0654DBDE8C1D4BD4219ACB8C2FA560C5 /* Pods-OneVc_Tests-resources.sh */,
+				F1BF4C70277D86E7A38BE55B938929AA /* Pods-OneVc_Tests-umbrella.h */,
+				2534A3FF19E933EE6AE1749BBAB3E065 /* Pods-OneVc_Tests.debug.xcconfig */,
+				F335C9C8978CE6B85D73C893852D9A96 /* Pods-OneVc_Tests.release.xcconfig */,
+			);
+			name = "Pods-OneVc_Tests";
+			path = "Target Support Files/Pods-OneVc_Tests";
+			sourceTree = "<group>";
+		};
+		603CE7470BA9F423CE0DD7DE6E094F57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E94C8ED1FA8274CD2C9DB37A1357DA /* Info.plist */,
+				A5FF6518DDBD1DB4CDA8B7CE7B1AF088 /* OneVc.modulemap */,
+				66AEDFCCE0B054E2DB528F3F85BC3E3E /* OneVc.xcconfig */,
+				2118C935689B91B78C48725EE09D39AD /* OneVc-dummy.m */,
+				C2A21E612FF5D992DE51CFAD19585954 /* OneVc-prefix.pch */,
+				CA914DF8C3C914F6B7AF9E84ECD1624C /* OneVc-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OneVc";
+			sourceTree = "<group>";
+		};
+		6C9FB3E0BC8705B1933B0916EAC6064D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				A56C99C478664D926D957DBFFE4CF7A1 /* LoginViewController.h */,
+				C1E9CAE4BC715F29119DC84B62861AF5 /* LoginViewController.m */,
+				A90A93F7EF43E5E55F263278FB4A63C6 /* Userinfo.h */,
+				C573F6117256C85CC70F3599FDCC55E9 /* Userinfo.m */,
+				BB1B6AEAE794CDAE032F4B104501210B /* Support Files */,
+			);
+			name = login;
+			path = login;
+			sourceTree = "<group>";
+		};
+		6DBD3166972210EF70F891358288650C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8EE44AFBE1733519ED186BEFC27DF9F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		705AB832149D4BA905821CD3C900CFAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				635E232A246EAF7F288CF4BB4753A9D9 /* OneVc.h */,
+				C6BAC696B37B3D7208F5BFFAD7685608 /* OneVc.m */,
+				85F289BF1400DDB0A10441D0C32CC33A /* OneVcModuleAPI.h */,
+				53FDC9A15CDFC75CAEED953826A6AF9E /* OneVcModuleAPI.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BB9F65C51A5D166B871A1FD1FA4976A4 /* Development Pods */,
+				46815B8D0E67CE9D05068875D0C8AD60 /* Frameworks */,
+				EA3497A2EBA31F79A9369F71E4A32D6C /* Pods */,
+				DC0C5FF1D0C0029CA0B89BFEB4BB3D34 /* Products */,
+				264023761E004CF7F6F6797074A7898A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		856197EA157E69FBA8293298D247AB82 /* OneVc */ = {
+			isa = PBXGroup;
+			children = (
+				3DB6130D22FC27F4F9376972F8278975 /* OneVc */,
+				603CE7470BA9F423CE0DD7DE6E094F57 /* Support Files */,
+			);
+			name = OneVc;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B5FAC0CD48F83AEC9B9EF2A75DE94A32 /* Pods-OneVc_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AA15743490AD79A3AA88DAEFF826AC01 /* Info.plist */,
+				A54354F785D314787508987A206E74B7 /* Pods-OneVc_Example.modulemap */,
+				B24AE3D217B097660E3E0A59510C1F37 /* Pods-OneVc_Example-acknowledgements.markdown */,
+				F9F397379F949339325226586C6AE478 /* Pods-OneVc_Example-acknowledgements.plist */,
+				6D6564C5D1944B1DA1D94E5D9182438E /* Pods-OneVc_Example-dummy.m */,
+				DA3F69216375AD65B3FDAB0CE45C7A36 /* Pods-OneVc_Example-frameworks.sh */,
+				B8A725D1770D3A5A9C0F092EC0F7958B /* Pods-OneVc_Example-resources.sh */,
+				0044413C2C4BDFF677E90BF5C31A2DC3 /* Pods-OneVc_Example-umbrella.h */,
+				1DB4761862F3E158F9510523A099922D /* Pods-OneVc_Example.debug.xcconfig */,
+				631C115AF0755045552539C863753CCB /* Pods-OneVc_Example.release.xcconfig */,
+			);
+			name = "Pods-OneVc_Example";
+			path = "Target Support Files/Pods-OneVc_Example";
+			sourceTree = "<group>";
+		};
+		BB1B6AEAE794CDAE032F4B104501210B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D53B80F20ECE76673BAECF7D1C1A8 /* Info.plist */,
+				9D1B9737BAF6197CBC10202AE98706BD /* login.modulemap */,
+				9B94BFB99751D2CBD9ED2D2055DBDA91 /* login.xcconfig */,
+				BF3B55F02DE01F173EBD368BBA7BDB52 /* login-dummy.m */,
+				905FF00DC2F595335FC881E4F552DAEC /* login-prefix.pch */,
+				F50E93BE0BD939E1031A9D0F360BE815 /* login-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/login";
+			sourceTree = "<group>";
+		};
+		BB9F65C51A5D166B871A1FD1FA4976A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				856197EA157E69FBA8293298D247AB82 /* OneVc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DC0C5FF1D0C0029CA0B89BFEB4BB3D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351B8D79B667A94FB35F251C6B98C388 /* login.framework */,
+				2C715A88E7391D084EDD6EF7021C3C7A /* OneVc.framework */,
+				2A121FE71ED6B36EC480878F3BB28668 /* Pods_OneVc_Example.framework */,
+				3D087EBD73B22EB39068AA7DF07D2078 /* Pods_OneVc_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3497A2EBA31F79A9369F71E4A32D6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9FB3E0BC8705B1933B0916EAC6064D /* login */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		394063313B82029ED643C06F0476F4D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6A42C7B7B4913022BDA80E01B358B9 /* Pods-OneVc_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B016CA1C7AA74BA458C82651113F52F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B0F5EAF7C4D50A49F16D7AE60BB778 /* Pods-OneVc_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D9328BC8278602E1D64146B05B4471 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27B31A40D14790876068E07F9A6FF09 /* OneVc-umbrella.h in Headers */,
+				59F9183E78FF1793D3746EA36E6E6CA7 /* OneVc.h in Headers */,
+				955E1FF80676A2EC43258108433C5768 /* OneVcModuleAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F99A6EFB0B7D97EC035924E5EE7135A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9692C8BE433097591CAFE5E8015D0FB1 /* login-umbrella.h in Headers */,
+				909BAAA5D1D1A9A12983441EB3F356AE /* LoginViewController.h in Headers */,
+				6EEEF154329E579FFCB063991432B3A0 /* Userinfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28DF09097064976856D98421118AC60D /* Pods-OneVc_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550BA1F79D5338DFCB55D78B4E718180 /* Build configuration list for PBXNativeTarget "Pods-OneVc_Tests" */;
+			buildPhases = (
+				2637D3A281C5F53904F2F92DF25832C0 /* Sources */,
+				DB8E01B8648AE5D4C06730867948E30D /* Frameworks */,
+				394063313B82029ED643C06F0476F4D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OneVc_Tests";
+			productName = "Pods-OneVc_Tests";
+			productReference = 3D087EBD73B22EB39068AA7DF07D2078 /* Pods_OneVc_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97A5A737BECD3A9D54DCABB4BDBBE382 /* login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33BC5D81954617B33F3E5E9535AB0A4 /* Build configuration list for PBXNativeTarget "login" */;
+			buildPhases = (
+				84EEA7666838AA417575480AAFB909F2 /* Sources */,
+				B8174575CA3F46ACFD8694159672D8DC /* Frameworks */,
+				9F99A6EFB0B7D97EC035924E5EE7135A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = login;
+			productName = login;
+			productReference = 351B8D79B667A94FB35F251C6B98C388 /* login.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EBF27A13B18109CBB677AFC207A9197 /* OneVc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60A0B5C9DC172B46A45FBD8E23FE3EB /* Build configuration list for PBXNativeTarget "OneVc" */;
+			buildPhases = (
+				C07AC4BA99457E2943E93A8D2A83E766 /* Sources */,
+				7B98866CB6E15BB738BE80103FACFEF5 /* Frameworks */,
+				70D9328BC8278602E1D64146B05B4471 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DCB027F89CE836B34A241419D1AC5E /* PBXTargetDependency */,
+			);
+			name = OneVc;
+			productName = OneVc;
+			productReference = 2C715A88E7391D084EDD6EF7021C3C7A /* OneVc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7AA1B8A122F501612A7522D2D337CD1 /* Pods-OneVc_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0C08A49D209AA4C55A6ED493249838 /* Build configuration list for PBXNativeTarget "Pods-OneVc_Example" */;
+			buildPhases = (
+				2BBA5C7DAB2629E0F95E4C9A1D27D151 /* Sources */,
+				0ED6419643631966D22A5BDCEC04782D /* Frameworks */,
+				3B016CA1C7AA74BA458C82651113F52F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9C8E862AD7F410F7B4ED979161F6A7 /* PBXTargetDependency */,
+				6366F933CEFA1945305C258430FBA450 /* PBXTargetDependency */,
+			);
+			name = "Pods-OneVc_Example";
+			productName = "Pods-OneVc_Example";
+			productReference = 2A121FE71ED6B36EC480878F3BB28668 /* Pods_OneVc_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC0C5FF1D0C0029CA0B89BFEB4BB3D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97A5A737BECD3A9D54DCABB4BDBBE382 /* login */,
+				9EBF27A13B18109CBB677AFC207A9197 /* OneVc */,
+				B7AA1B8A122F501612A7522D2D337CD1 /* Pods-OneVc_Example */,
+				28DF09097064976856D98421118AC60D /* Pods-OneVc_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2637D3A281C5F53904F2F92DF25832C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1ECAD53A006D1ED2E6D5ED0729A6D79 /* Pods-OneVc_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA5C7DAB2629E0F95E4C9A1D27D151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224B1AE2255E9291991FD56E18FA49AA /* Pods-OneVc_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EEA7666838AA417575480AAFB909F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6B2776F4549BAA84207D094659C1D0 /* login-dummy.m in Sources */,
+				0305D8CACFBF6A1E5815B536C74B013A /* LoginViewController.m in Sources */,
+				AE06728CB90A4B9935D31D33C4F8C4B0 /* Userinfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07AC4BA99457E2943E93A8D2A83E766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6209919F84FF53F264C3ECB2E760845E /* OneVc-dummy.m in Sources */,
+				8B2787AB31854839206253C8DDAA7032 /* OneVc.m in Sources */,
+				F9499DF1778E9F4179AB37EADBD62F36 /* OneVcModuleAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6366F933CEFA1945305C258430FBA450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = login;
+			target = 97A5A737BECD3A9D54DCABB4BDBBE382 /* login */;
+			targetProxy = 751FB67D463CB3E568FD6963E871B5E3 /* PBXContainerItemProxy */;
+		};
+		F7DCB027F89CE836B34A241419D1AC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = login;
+			target = 97A5A737BECD3A9D54DCABB4BDBBE382 /* login */;
+			targetProxy = 0475AE172D9376984BFFF5C9D960F43F /* PBXContainerItemProxy */;
+		};
+		FE9C8E862AD7F410F7B4ED979161F6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneVc;
+			target = 9EBF27A13B18109CBB677AFC207A9197 /* OneVc */;
+			targetProxy = 7B23F08CAF715C606C44EB1E29AA867A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AE0E3EA8F401230CF96657C1D45901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B94BFB99751D2CBD9ED2D2055DBDA91 /* login.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/login/login-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/login/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/login/login.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = login;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EC95623289F46D7804E45342056F3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB4761862F3E158F9510523A099922D /* Pods-OneVc_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneVc_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneVc_Example/Pods-OneVc_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneVc_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E6398EDF2B37719C9F9EEED9D8C28E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B94BFB99751D2CBD9ED2D2055DBDA91 /* login.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/login/login-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/login/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/login/login.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = login;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756A16E0210AD54AEF0ECECD02779DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AEDFCCE0B054E2DB528F3F85BC3E3E /* OneVc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OneVc/OneVc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneVc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneVc/OneVc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OneVc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8817AEB471D5B3FA5A976EAB338A0FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F335C9C8978CE6B85D73C893852D9A96 /* Pods-OneVc_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneVc_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneVc_Tests/Pods-OneVc_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneVc_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		917CF69AC4DF123DC65584A068538250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631C115AF0755045552539C863753CCB /* Pods-OneVc_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneVc_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneVc_Example/Pods-OneVc_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneVc_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB89AA14D8648829F7EC570A233986D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AEDFCCE0B054E2DB528F3F85BC3E3E /* OneVc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OneVc/OneVc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneVc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneVc/OneVc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OneVc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5572044DD99A651A19F89B8B7E44B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2534A3FF19E933EE6AE1749BBAB3E065 /* Pods-OneVc_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneVc_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneVc_Tests/Pods-OneVc_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneVc_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0C08A49D209AA4C55A6ED493249838 /* Build configuration list for PBXNativeTarget "Pods-OneVc_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC95623289F46D7804E45342056F3D5 /* Debug */,
+				917CF69AC4DF123DC65584A068538250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550BA1F79D5338DFCB55D78B4E718180 /* Build configuration list for PBXNativeTarget "Pods-OneVc_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5572044DD99A651A19F89B8B7E44B2A /* Debug */,
+				8817AEB471D5B3FA5A976EAB338A0FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60A0B5C9DC172B46A45FBD8E23FE3EB /* Build configuration list for PBXNativeTarget "OneVc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB89AA14D8648829F7EC570A233986D6 /* Debug */,
+				756A16E0210AD54AEF0ECECD02779DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33BC5D81954617B33F3E5E9535AB0A4 /* Build configuration list for PBXNativeTarget "login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6398EDF2B37719C9F9EEED9D8C28E7 /* Debug */,
+				01AE0E3EA8F401230CF96657C1D45901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

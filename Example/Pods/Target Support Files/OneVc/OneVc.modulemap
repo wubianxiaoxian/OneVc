@@ -1,0 +1,6 @@
+framework module OneVc {
+  umbrella header "OneVc-umbrella.h"
+
+  export *
+  module * { export * }
+}

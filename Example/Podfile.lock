@@ -1,0 +1,19 @@
+PODS:
+  - login (0.2.0)
+  - OneVc (0.1.0):
+    - login
+
+DEPENDENCIES:
+  - OneVc (from `../`)
+
+EXTERNAL SOURCES:
+  OneVc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  login: aa7695fae1ceb2f92275b2bb43801b866f5c8f82
+  OneVc: c85167c83cfd3f5f3291c060e8ae019fdd222b84
+
+PODFILE CHECKSUM: 1ec86d1b4ebebf659eb033f093453a60f644e5f0
+
+COCOAPODS: 1.2.0

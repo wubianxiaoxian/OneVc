@@ -11,5 +11,6 @@
 @interface skfAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property(nonatomic,strong)NSUserDefaults *user;
 
 @end
